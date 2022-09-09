@@ -6,7 +6,6 @@ import io.jenetics.engine.Codec;
 import io.jenetics.util.ISeq;
 import io.jenetics.util.IntRange;
 import models.applications.UtilityApplication;
-import models.genetics.UtilityGenotype;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -30,7 +30,7 @@ enum ConstraintExecution {
     NO, NORMAL, INVERTED;
 }
 
-public class Journal {
+public class Main {
     // Define date format
     static SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 

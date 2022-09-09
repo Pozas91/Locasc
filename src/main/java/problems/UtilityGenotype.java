@@ -1,4 +1,4 @@
-package models.genetics;
+package problems;
 
 import io.jenetics.Genotype;
 import io.jenetics.IntegerGene;
