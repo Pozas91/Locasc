@@ -87,21 +87,12 @@ Experimental results and a discussion on the selection of hyper-parameters is av
 └── utils
 ```
 
-La ejecución principal de este proyecto se encuentra en el archivo `executions -> Main.java`, este archivo ejecutará 
-los diferentes métodos y algoritmos, y volcará toda la información de la salida en la carpeta llamada
-`data`. 
+The main execution of this project is in the file `executions -> Main.java`, this file will execute the different methods and algorithms, and will dump all the output information in the folder called `data`. 
 
-En la carpeta `generators`, se encuentran clases con métodos que devuelven aplicaciones aleatorias, servicios aleatorios,
-proveedores aleatorios, etc. Esto está pensando para poder hacer pruebas aleatorias y sacar estadísticas sobre los resultados.
+In the `generators` folder, you will find classes with methods that return random applications, random services, random providers, etc. This is intended to be used for random testing and to get statistics on the results.
 
-Si seguimos por la carpeta `models`, encontraremos mucha sub-carpetas donde están definidos los modelos de la aplicación,
-enumerados, patrones arquitectónicos, entre otros elementos.
+If we continue through the `models` folder, we will find many sub-folders where the application models are defined, enumerated, architectural patterns, among other elements.
 
-Las siguientes dos carpetas `problems` y `resolvers`, son las carpetas fundamentales del proyecto. En la primera 
-`problems`, están definidos los problemas a resolver para los distintos métodos. En estas clases, se encuentra la 
-definición del genotipo para el algoritmo genético, para la utilidad, etc. En la otra carpeta llamada `resolvers`
-se encuentran las clases diseñadas para resolver los problemas definidos anteriormente, entre los resolutores 
-encontramos el resolutor del algoritmo `Express`, `GA`, `Random`, `Utility` y `Utility Modified`.
+The next two folders, `problems` and `resolvers`, are the fundamental folders of the project. In the first one, `problems`, the problems to be solved for the different methods are defined. In these classes, the definition of the genotype for the genetic algorithm, for the utility, etc. is found. In the other folder called `resolvers` are the classes designed to solve the problems defined above, among the solvers we find the solver of the algorithm `Express`, `GA`, `Random`, `Utility` and `Utility Modified`.
 
-Por últimos tenemos una carpeta llamada `utils`, con diversas funciones para trabajar con directores, salidas de datos,
-archivos CSV, entre otros elementos.
+Finally, we have a folder called `utils`, with various functions for working with directors, data outputs, CSV files, among other elements, CSV files, among other elements.
