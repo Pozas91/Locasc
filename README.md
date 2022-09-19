@@ -1,4 +1,4 @@
-# LOCASC: Location-Aware Scalable Service Composition
+# LOCASSC: Location-Aware Scalable Service Composition
 
 The problem of service composition is the process of assigning resources to services from a pool of available ones in
 the shortest possible time so that the overall Quality of Service is maximized.
